@@ -1,0 +1,5 @@
+/node_modules
+.DS_Store
+._index.js
+._package.json
+/utils/._generateMarkdown.js
