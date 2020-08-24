@@ -31,6 +31,7 @@
 
   ## Usage
   In the same directory as the index.js file, type 'node index.js' in your terminal to run the program. Answer the prompts to and witness sweet generation!
+  [How to Use](https://drive.google.com/file/d/1Q2u4WFBGBWAeyGlXwXRSNLimt3_an9Nz/view)
 
   ## License
   [MIT](https://opensource.org/licenses/MIT)
