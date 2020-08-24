@@ -26,7 +26,7 @@
   ![img5](https://user-images.githubusercontent.com/66426144/90992975-e0e68600-e580-11ea-8583-ee8ad126605b.png)
 
   ## Installation
-  To install, you just need to download the files, go into your terminal and make sure you're in the right directory, then run 'npm i'. That should install all modules. 
+  To install, you just need to download the files, go into your terminal and make sure you're in the right directory and you have node.js installed, then run 'npm i'. That should install all modules. 
   ![im6](https://user-images.githubusercontent.com/66426144/90993037-40dd2c80-e581-11ea-9ec7-691d71531c43.png)
 
   ## Usage
