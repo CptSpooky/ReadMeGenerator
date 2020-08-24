@@ -3,10 +3,26 @@ var generateMarkdown = function(data) {
 
   // license markdown
   const licenses = {
-    MIT: "[MIT](https://opensource.org/licenses/MIT)",
-    GPL: "[GPL](https://www.gnu.org/licenses/gpl-3.0.en.html)",
-    Apache: "[Apache](https://www.apache.org/licenses/LICENSE-2.0)",
-    Other: "Unspecified (user specific)."
+    MIT: {
+      name: "MIT",
+      url: "https://opensource.org/licenses/MIT",
+      badge: "https://img.shields.io/badge/License-MIT-yellow.svg"
+    },
+    GPL: {
+      name: "GPL",
+      url: "https://www.gnu.org/licenses/gpl-3.0.en.html",
+      badge: "https://img.shields.io/badge/License-GPLv3-blue.svg"
+    },
+    Apache: {
+      name: "Apache",
+      url: "https://www.apache.org/licenses/LICENSE-2.0",
+      badge: "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
+    },
+    Other: {
+      name: "Unspecified (user specific)",
+      url: "",
+      badge: ""
+    }
   }
 
   // license switch
@@ -32,6 +48,7 @@ var generateMarkdown = function(data) {
   - [Questions](#Questions)
 
   ## Description
+  ![badge](${license.badge})
   [App Link](${data.deployed})
   ![App Img](${data.appImg})
 
@@ -44,7 +61,7 @@ var generateMarkdown = function(data) {
   ${data.usage}
 
   ## License
-  ${license}
+  [${license.name}](${license.url})
 
   ## Contributing
   ${data.contribute}

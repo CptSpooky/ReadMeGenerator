@@ -69,6 +69,11 @@ const questions = [
         type: "input",
         message: "How should people go about contacting you?" ,
         name: "contactMe"
+    },
+    {
+        type: "input",
+        message: "How did you test the app?" ,
+        name: "test"
     }
 
 ];
